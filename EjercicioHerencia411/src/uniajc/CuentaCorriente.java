@@ -1,3 +1,6 @@
+package uniajc;
+import uniajc.Cuenta;
+
 public class CuentaCorriente extends Cuenta {
     
     protected float sobregiro;
