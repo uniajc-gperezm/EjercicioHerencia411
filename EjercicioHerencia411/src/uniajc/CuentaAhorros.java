@@ -1,3 +1,6 @@
+package uniajc;
+import uniajc.Cuenta;
+
 public class CuentaAhorros extends Cuenta {
     
     protected boolean activa;
