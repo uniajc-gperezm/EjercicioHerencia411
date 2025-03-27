@@ -51,7 +51,11 @@ public class EjercicioHerencia411 {
         
         System.out.println("");
         ahorro.imprimir();
+        System.out.println("");
         
         CuentaCorriente co = new CuentaCorriente(SALDO, TASA);
+        
+        co.consignar(5000);
+        co.imprimir();
     } 
 }
